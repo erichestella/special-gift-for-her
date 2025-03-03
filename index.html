@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="locker.css">
+</head>
+<body>
+    <div id="locker-container">
+        <div id="locker-title">
+            <h1 id="lock-head">Locker</h1>
+        </div>
+
+        <div id="lock-screen">
+            <input type="text" class="screen" id="screen1" readonly  maxlength="1">
+            <input type="text" class="screen" id="screen2" readonly  maxlength="1">
+            <input type="text" class="screen" id="screen3" readonly  maxlength="1">
+            <input type="text" class="screen" id="screen4" readonly  maxlength="1">
+        </div>
+
+        <div class="numberpad-row">
+            <button class="numberkeys" data-value="0"> 0 </button>
+            <button class="numberkeys" data-value="1"> 1 </button>
+            <button class="numberkeys" data-value="2"> 2 </button>
+            <button class="numberkeys" data-value="3"> 3 </button>
+            
+        </div>
+        <div class="numberpad-row">
+            <button class="numberkeys" data-value="4"> 4 </button>
+            <button class="numberkeys" data-value="5"> 5 </button>
+            <button class="numberkeys" data-value="6"> 6 </button>
+            <button class="numberkeys" data-value="7"> 7 </button>
+            
+        </div>
+        <div class="numberpad-row">
+            <button class="numberkeys" data-value="8"> 8 </button>
+            <button class="numberkeys" data-value="9"> 9 </button>
+            <button class="operator" id="Clear" data-value="C"> C </button>
+            <button class="operator" id="Enter"> Enter</button>
+            
+    </div>
+    <script src="locker.js"></script>
+    
+</body>
+</html>
