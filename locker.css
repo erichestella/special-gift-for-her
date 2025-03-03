@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Space Mono", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url("imgs/bg.png") no-repeat;
+    flex-direction: column;
+    background-size: cover;
+
+}
+
+#locker-container {
+    height: 500px;
+    width: 500px;
+    background: url("imgs/locker.png") no-repeat;
+    background-size: 40em;
+    background-position-y: -70px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(215, 62, 136);
+    flex-direction: column;
+   
+}
+
+#locker-title{
+    margin-top: 10px;
+    display: flex;
+    font-weight: bold;
+    padding: 6px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(85, 6, 81);
+}
+
+#lock-screen {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    padding: 17px;
+
+}
+
+.screen {
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 25px;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    width: 4.1em;
+    box-shadow: 3px 7px 7px 0 rgb(190, 40, 85);
+   
+}
+
+.numberpad-row {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    padding: 8px;
+
+}
+
+.numberpad-row button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 6px 10px 10px rgb(139, 23, 79);
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer;
+}
+
+.numberkeys:active {
+    background-color: pink;
+    transform: scale(1.05);
+}
+
+.operator:hover {
+    background-color: rgb(168, 20, 213);
+    transform: scale(1.05);
+}
+
+/* #enter:hover {
+    background-color: rgb(168, 20, 213);
+    transform: scale(1.05);
+} */
+
