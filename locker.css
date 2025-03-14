@@ -19,7 +19,7 @@ body{
 }
 
 #locker-container {
-    height: 500px;
+    height: 60vh;
     width: 500px;
     background: url("imgs/locker.png") no-repeat;
     background-size: 40em;
