@@ -21,7 +21,7 @@ body{
 #locker-container {
     height: 60vh;
     width: 30vw;
-    background: url("imgs/locker.png") no-repeat;
+    background: url("imgs/locker.png") no-repeat center center fixed;
     background-size: 40em;
     background-position-y: -70px;
     border-radius: 10px;
