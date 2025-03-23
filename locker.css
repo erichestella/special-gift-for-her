@@ -12,15 +12,17 @@ body{
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    background: url("imgs/bg.png") no-repeat;
+    background: url("imgs/bg.png") no-repeat center center fixed;
     flex-direction: column;
     background-size: cover;
+
 
 }
 
 #locker-container {
-    height: 60vh;
-    width: 30vw;
+    /* height: 63vh; */
+    width: 150vw;
+    max-width: 450px;
     background: url("imgs/locker.png") no-repeat center center fixed;
     background-size: 40em;
     background-position-y: -70px;
@@ -43,9 +45,10 @@ body{
 
 #lock-screen {
     display: flex;
-    flex: 1;
-    gap: 20px;
-    padding: 17px;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;     
 
 }
 
@@ -61,6 +64,7 @@ body{
     display: flex;
     width: 4.1em;
     box-shadow: 3px 7px 7px 0 rgb(190, 40, 85);
+    flex: 1;
    
 }
 
@@ -88,12 +92,12 @@ body{
 
 .numberkeys:active {
     background-color: pink;
-    transform: scale(1.05);
+    transform: scale(1);
 }
 
-.operator:hover {
-    background-color: rgb(168, 20, 213);
-    transform: scale(1.05);
+.operator:active {
+    background-color: rgb(189, 157, 199);
+    transform: scale(1);
 }
 
 /* #enter:hover {
