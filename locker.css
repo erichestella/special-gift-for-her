@@ -12,7 +12,7 @@ body{
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    background: url("imgs/bg.png") no-repeat center center fixed;
+    background: url("imgs/bg.png") no-repeat center center;
     flex-direction: column;
     background-size: cover;
 
@@ -27,7 +27,7 @@ body{
     background-size: 40em;
     background-position-y: -70px;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px rgb(215, 62, 136);
+    box-shadow: 10px 10px 10px rgb(213, 97, 153);
     flex-direction: column;
    
 }
@@ -40,7 +40,7 @@ body{
     justify-content: center;
     font-weight: bold;
     font-size: 25px;
-    color: rgb(85, 6, 81);
+    color: rgb(85, 6, 55);
 }
 
 #lock-screen {
@@ -63,7 +63,7 @@ body{
     align-items: center;
     display: flex;
     width: 4.1em;
-    box-shadow: 3px 7px 7px 0 rgb(190, 40, 85);
+    box-shadow: 3px 7px 7px 0 rgb(92, 48, 61);
     flex: 1;
    
 }
@@ -85,7 +85,7 @@ body{
     font-size: 20px;
     border-radius: 5px;
     border: none;
-    box-shadow: 6px 10px 10px rgb(139, 23, 79);
+    box-shadow: 6px 5px 5px rgb(104, 48, 75);
     transition: background-color 0.3s, transform 0.2s;
     cursor: pointer;
 }
