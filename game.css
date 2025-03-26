@@ -52,8 +52,8 @@ body {
 
 
 .card  .back-view img {
-    max-width: 70px;
-    max-height: 250px;
+    max-width: 100px;
+    max-height: 100px;
 
 }
 
@@ -63,7 +63,7 @@ body {
     position: absolute;
     background: rgb(173, 136, 136);
     border-radius: 5px;
-    box-shadow: 3px 7px 9px 5px rgb(160, 41, 197);
+    box-shadow: 3px 6px 9px 2px rgb(159, 81, 182);
     backface-visibility: hidden; /*this prevents both sides from appearing the same time*/
     transition: transform 0.50s linear;
     user-select: none;
